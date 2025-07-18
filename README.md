@@ -1,6 +1,6 @@
 # Natural-Language Database Query System
 
-A minimal terminal-based interface that lets you type natural-language database queries and get the desired data using an integrated system involving an optimized language model.
+A minimal terminal-based interface that lets you type natural-language database queries and get the desired data using an integrated system involving a local optimized language model.
 
 This repo is the clean inference version of the full project, which was designed, fine-tuned, and optimized on Kaggle:  
 🔗 [AI-Powered PostgreSQL – Kaggle Notebook](https://www.kaggle.com/code/mohamedfarouk94/ai-powered-postgresql?scriptVersionId=237714324)
