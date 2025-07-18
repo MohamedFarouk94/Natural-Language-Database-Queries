@@ -1,18 +1,18 @@
-# Text-to-SQL Chat (Terminal Interface)
+# Natural-Language Database Query System
 
-A minimal terminal-based interface that lets you ask natural language questions and get SQL-generated answers using an optimized language model.
+A minimal terminal-based interface that lets you type natural-language database queries and get the desired data using an integrated system involving an optimized language model.
 
 This repo is the clean inference version of the full project, which was designed, fine-tuned, and optimized on Kaggle:  
 🔗 [AI-Powered PostgreSQL – Kaggle Notebook](https://www.kaggle.com/code/mohamedfarouk94/ai-powered-postgresql?scriptVersionId=237714324)
 
 ---
 
-## 🚀 What This Project Does
+## 🚀 What Was Done in the Project
 
-- Builds a simple customer/order/review/product schema in PostgreSQL
-- Fine-tunes a Text-to-SQL model using LoRA and quantization (5GB → 850MB)
-- Uses LangChain’s Runnable logic to convert natural language into executable SQL
-- Runs SQL queries on a live PostgreSQL connection and returns answers
+- Built a simple customer/order/review/product schema in PostgreSQL
+- Fine-tuned a Text-to-SQL model using LoRA and quantization (5GB → 850MB)
+- Used LangChain’s Runnable logic to convert natural language into executable SQL
+- Run SQL queries on a live PostgreSQL connection and returned answers
 
 ---
 
