@@ -2,8 +2,8 @@ import pandas as pd
 import warnings
 from time import time
 from langchain_core.runnables import RunnableLambda
+from model import get_response
 
-from database import get_response
 
 warnings.filterwarnings("ignore", category=UserWarning, message=".*only supports SQLAlchemy connectable.*")
 
