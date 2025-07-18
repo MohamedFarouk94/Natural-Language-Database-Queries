@@ -65,7 +65,8 @@ text-to-sql-chat/
 │
 ├── main.py           # Entry point script
 ├── query_chain.py    # LangChain Runnable chain
-├── database.py       # DB connection and model loading
+├── database.py       # DB connection
+├── model.py          # Model loading and database schema
 ├── requirements.txt
 ├── README.md
 └── .gitignore
